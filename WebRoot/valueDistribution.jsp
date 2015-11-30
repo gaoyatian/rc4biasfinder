@@ -1,0 +1,298 @@
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'valueDistribution.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+  <title>List Value Distribution</title>
+  
+  <body>
+<center><h3>List Value Distribution</h3></center>
+<table align="center" border="1" width="700px">
+	<tr>
+    	<th>Pos1</th>
+        <th>Pos2</th>
+        <th>Pos3</th>
+        <th>Pos4</th>
+        <th>Pos5</th>
+        <th>Pos6</th>
+        <th>Pos7</th>
+        <th>Pos8</th>
+        <th>Pos9</th>
+        <th>Pos10</th>
+        <th>Pos11</th>
+        <th>Pos12</th>
+        <th>Pos13</th>
+        <th>Pos14</th>
+        <th>Pos15</th>
+        <th>Pos16</th>
+        <th>Pos17</th>
+        <th>Pos18</th>
+        <th>Pos19</th>
+        <th>Pos20</th>
+        <th>Pos21</th>
+        <th>Pos22</th>
+        <th>Pos23</th>
+        <th>Pos24</th>
+        <th>Pos25</th>
+        <th>Pos26</th>
+        <th>Pos27</th>
+        <th>Pos28</th>
+        <th>Pos29</th>
+        <th>Pos30</th>
+        <th>Pos31</th>
+        <th>Pos32</th>
+        <th>Pos33</th>
+        <th>Pos34</th>
+        <th>Pos35</th>
+        <th>Pos36</th>
+        <th>Pos37</th>
+        <th>Pos38</th>
+        <th>Pos39</th>
+        <th>Pos40</th>
+        <th>Pos41</th>
+        <th>Pos42</th>
+        <th>Pos43</th>
+        <th>Pos44</th>
+        <th>Pos45</th>
+        <th>Pos46</th>
+        <th>Pos47</th>
+        <th>Pos48</th>
+        <th>Pos49</th>
+        <th>Pos50</th>
+        <th>Pos51</th>
+        <th>Pos52</th>
+        <th>Pos53</th>
+        <th>Pos54</th>
+        <th>Pos55</th>
+        <th>Pos56</th>
+        <th>Pos57</th>
+        <th>Pos58</th>
+        <th>Pos59</th>
+        <th>Pos60</th>
+        <th>Pos61</th>
+        <th>Pos62</th>
+        <th>Pos63</th>
+        <th>Pos64</th>
+        <th>Pos65</th>
+        <th>Pos66</th>
+        <th>Pos67</th>
+        <th>Pos68</th>
+        <th>Pos69</th>
+        <th>Pos70</th>
+        <th>Pos71</th>
+        <th>Pos72</th>
+        <th>Pos73</th>
+        <th>Pos74</th>
+        <th>Pos75</th>
+        <th>Pos76</th>
+        <th>Pos77</th>
+        <th>Pos78</th>
+        <th>Pos79</th>
+        <th>Pos80</th>
+        <th>Pos81</th>
+        <th>Pos82</th>
+        <th>Pos83</th>
+        <th>Pos84</th>
+        <th>Pos85</th>
+        <th>Pos86</th>
+        <th>Pos87</th>
+        <th>Pos88</th>
+        <th>Pos89</th>
+        <th>Pos90</th>
+        <th>Pos91</th>
+        <th>Pos92</th>
+        <th>Pos93</th>
+        <th>Pos94</th>
+        <th>Pos95</th>
+        <th>Pos96</th>
+        <th>Pos97</th>
+        <th>Pos98</th>
+        <th>Pos99</th>
+        <th>Pos100</th>
+        <th>Pos101</th>
+        <th>Pos102</th>
+        <th>Pos103</th>
+        <th>Pos104</th>
+        <th>Pos105</th>
+        <th>Pos106</th>
+        <th>Pos107</th>
+        <th>Pos108</th>
+        <th>Pos109</th>
+        <th>Pos110</th>
+        <th>Pos111</th>
+        <th>Pos112</th>
+        <th>Pos113</th>
+        <th>Pos114</th>
+        <th>Pos115</th>
+        <th>Pos116</th>
+        <th>Pos117</th>
+        <th>Pos118</th>
+        <th>Pos119</th>
+        <th>Pos120</th>
+        <th>Pos121</th>
+        <th>Pos122</th>
+        <th>Pos123</th>
+        <th>Pos124</th>
+        <th>Pos125</th>
+        <th>Pos126</th>
+        <th>Pos127</th>
+        <th>Pos128</th>
+
+      
+    </tr>
+
+    <tr>
+        <td>${valuDis.pos0}</td>
+        <td>${valuDis.pos1}</td>
+        <td>${valuDis.pos2}</td>
+        <td>${valuDis.pos3}</td>
+        <td>${valuDis.pos4}</td>
+        <td>${valuDis.pos5}</td>
+        <td>${valuDis.pos6}</td>
+        <td>${valuDis.pos7}</td>
+        <td>${valuDis.pos8}</td>
+        <td>${valuDis.pos9}</td>
+        <td>${valuDis.pos10}</td>
+        <td>${valuDis.pos11}</td>
+        <td>${valuDis.pos12}</td>
+        <td>${valuDis.pos13}</td>
+        <td>${valuDis.pos14}</td>
+        <td>${valuDis.pos15}</td>
+        <td>${valuDis.pos16}</td>
+        <td>${valuDis.pos17}</td>
+        <td>${valuDis.pos18}</td>
+        <td>${valuDis.pos19}</td>
+        <td>${valuDis.pos20}</td>
+        <td>${valuDis.pos21}</td>
+        <td>${valuDis.pos22}</td>
+        <td>${valuDis.pos23}</td>
+        <td>${valuDis.pos24}</td>
+        <td>${valuDis.pos25}</td>
+        <td>${valuDis.pos26}</td>
+        <td>${valuDis.pos27}</td>
+        <td>${valuDis.pos28}</td>
+        <td>${valuDis.pos29}</td>
+        <td>${valuDis.pos30}</td>
+        <td>${valuDis.pos31}</td>
+        <td>${valuDis.pos32}</td>
+        <td>${valuDis.pos33}</td>
+        <td>${valuDis.pos34}</td>
+        <td>${valuDis.pos35}</td>
+        <td>${valuDis.pos36}</td>
+        <td>${valuDis.pos37}</td>
+        <td>${valuDis.pos38}</td>
+        <td>${valuDis.pos39}</td>
+        <td>${valuDis.pos40}</td>
+        <td>${valuDis.pos41}</td>
+        <td>${valuDis.pos42}</td>
+        <td>${valuDis.pos43}</td>
+        <td>${valuDis.pos44}</td>
+        <td>${valuDis.pos45}</td>
+        <td>${valuDis.pos46}</td>
+        <td>${valuDis.pos47}</td>
+        <td>${valuDis.pos48}</td>
+        <td>${valuDis.pos49}</td>
+        <td>${valuDis.pos50}</td>
+        <td>${valuDis.pos51}</td>
+        <td>${valuDis.pos52}</td>
+        <td>${valuDis.pos53}</td>
+        <td>${valuDis.pos54}</td>
+        <td>${valuDis.pos55}</td>
+        <td>${valuDis.pos56}</td>
+        <td>${valuDis.pos57}</td>
+        <td>${valuDis.pos58}</td>
+        <td>${valuDis.pos59}</td>
+        <td>${valuDis.pos60}</td>
+        <td>${valuDis.pos61}</td>
+        <td>${valuDis.pos62}</td>
+        <td>${valuDis.pos63}</td>
+        <td>${valuDis.pos64}</td>
+        <td>${valuDis.pos65}</td>
+        <td>${valuDis.pos66}</td>
+        <td>${valuDis.pos67}</td>
+        <td>${valuDis.pos68}</td>
+        <td>${valuDis.pos69}</td>
+        <td>${valuDis.pos70}</td>
+        <td>${valuDis.pos71}</td>
+        <td>${valuDis.pos72}</td>
+        <td>${valuDis.pos73}</td>
+        <td>${valuDis.pos74}</td>
+        <td>${valuDis.pos75}</td>
+        <td>${valuDis.pos76}</td>
+        <td>${valuDis.pos77}</td>
+        <td>${valuDis.pos78}</td>
+        <td>${valuDis.pos79}</td>
+        <td>${valuDis.pos80}</td>
+        <td>${valuDis.pos81}</td>
+        <td>${valuDis.pos82}</td>
+        <td>${valuDis.pos83}</td>
+        <td>${valuDis.pos84}</td>
+        <td>${valuDis.pos85}</td>
+        <td>${valuDis.pos86}</td>
+        <td>${valuDis.pos87}</td>
+        <td>${valuDis.pos88}</td>
+        <td>${valuDis.pos89}</td>
+        <td>${valuDis.pos90}</td>
+        <td>${valuDis.pos91}</td>
+        <td>${valuDis.pos92}</td>
+        <td>${valuDis.pos93}</td>
+        <td>${valuDis.pos94}</td>
+        <td>${valuDis.pos95}</td>
+        <td>${valuDis.pos96}</td>
+        <td>${valuDis.pos97}</td>
+        <td>${valuDis.pos98}</td>
+        <td>${valuDis.pos99}</td>
+        <td>${valuDis.pos100}</td>
+        <td>${valuDis.pos101}</td>
+        <td>${valuDis.pos102}</td>
+        <td>${valuDis.pos103}</td>
+        <td>${valuDis.pos104}</td>
+        <td>${valuDis.pos105}</td>
+        <td>${valuDis.pos106}</td>
+        <td>${valuDis.pos107}</td>
+        <td>${valuDis.pos108}</td>
+        <td>${valuDis.pos109}</td>
+        <td>${valuDis.pos110}</td>
+        <td>${valuDis.pos111}</td>
+        <td>${valuDis.pos112}</td>
+        <td>${valuDis.pos113}</td>
+        <td>${valuDis.pos114}</td>
+        <td>${valuDis.pos115}</td>
+        <td>${valuDis.pos116}</td>
+        <td>${valuDis.pos117}</td>
+        <td>${valuDis.pos118}</td>
+        <td>${valuDis.pos119}</td>
+        <td>${valuDis.pos120}</td>
+        <td>${valuDis.pos121}</td>
+        <td>${valuDis.pos122}</td>
+        <td>${valuDis.pos123}</td>
+        <td>${valuDis.pos124}</td>
+        <td>${valuDis.pos125}</td>
+        <td>${valuDis.pos126}</td>
+        <td>${valuDis.pos127}</td>
+    
+        
+    </tr>
+
+
+</table>
+  </body>
+</html>

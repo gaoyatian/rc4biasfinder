@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="rc4biasfinder"
+  id="myeclipse.1447630951909"
+  context-root="/rc4biasfinder"
+  j2ee-spec="5.0"
+  archive="rc4biasfinder.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
